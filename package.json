@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "tsc-watch": "^6.0.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.9.1"
+  }
+}

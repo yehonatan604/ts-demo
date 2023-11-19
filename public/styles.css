@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.box {
+    box-shadow: 5px 5px 5px 3px gray;
+    border-radius: 20px;
+}
+
+.m-1 {
+    margin: 1em;
+}
+
+.m-3 {
+    margin: 3em;
+}
+
+.w-40 {
+    width: 40vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-token {
+    display: flex;
+    justify-content: center;
+}
+
+.container-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn {
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(47, 172, 74);
+    color: azure;
+    font-weight: bold;
+    border: 0;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.btn:hover {
+    opacity: .7;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.label {
+    margin-bottom: .5em;
+}
+
+#token {
+    width: 200px;
+    word-break: break-word;
+    padding: 1em;
+}

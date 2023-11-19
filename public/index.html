@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../src/main.js" type="module" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <form class="w-40">
+            <div class="container-login box m-3">
+                <div class="form-control m-1">
+                    <label class="label" for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-control m-1">
+                    <label class="label" for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-control m-1">
+                    <input class="btn" id="submit" type="submit" value="go">
+                </div>
+            </div>
+        </form>
+
+        <div class="container-token box m-3 w-40">
+            <h4 class="m-1">token:</h4>
+            <p id="token"></p>
+        </div>
+
+        <div class="container-user box m-3 w-40">
+            <h4 class="m-1">logged user:</h4>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
